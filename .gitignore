@@ -3,23 +3,27 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
-*.pkl
 *.db
 *.sqlite3
 
-# Virtual Environment
-.env
-.venv/
+# Virtual environment
 venv/
-ENV/
+env/
+.venv/
+.ENV/
+ytgroq_env/
+venu/
 
-# OS files
+# IDE
+.vscode/
+.idea/
+
+# OS
 .DS_Store
 Thumbs.db
 
-# IDE configs
-.vscode/
-.idea/
+# Logs
+*.log
 
 # Streamlit cache
 .streamlit/

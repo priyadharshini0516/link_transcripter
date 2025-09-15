@@ -8,17 +8,15 @@ from youtube_transcript_api import (
     NoTranscriptFound,
     VideoUnavailable
 )
-from langchain.document_loaders import YoutubeLoader, TextLoader
+# Only import TextLoader from langchain
+# from langchain.document_loaders import TextLoader
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.vectorstores import FAISS
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.chains import RetrievalQA
 from langchain_groq import ChatGroq
+# Import YoutubeLoader only from langchain_community
 from langchain_community.document_loaders import YoutubeLoader
-from langchain.document_loaders import TextLoader
-
-
-
 
 
 

@@ -1,29 +1,36 @@
-# Python
+# ---- Python ----
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
-*.db
-*.sqlite3
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
 
-# Virtual environment
+# ---- Virtual Environment ----
 venv/
+venu/
 env/
 .venv/
-.ENV/
-ytgroq_env/
-venu/
 
-# IDE
+# ---- IDE / Editors ----
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# OS
+# ---- Streamlit ----
+.streamlit/
+
+# ---- OS Files ----
 .DS_Store
 Thumbs.db
 
-# Logs
-*.log
+# ---- Environment Variables ----
+.env
 
-# Streamlit cache
-.streamlit/
+# ---- Logs ----
+*.log
